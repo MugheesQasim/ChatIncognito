@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MQTT Chat Interface</title>
+  <style>
+    #chat-box {
+      height: 300px;
+      overflow-y: scroll;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    #message-input {
+      width: 80%;
+      margin-right: 10px;
+    }
+
+    #send-button {
+      width: 18%;
+    }
+  </style>
+</head>
+<body>
+  <div id="chat-box"></div>
+  <div>
+    <input type="text" id="message-input" placeholder="Type your message...">
+    <button id="send-button" onclick="sendMessage()">Send</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.0.0/mqtt.min.js"></script>
+  <script src="mqtt.js"></script>
+</body>
+</html>
