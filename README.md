@@ -1,6 +1,6 @@
 # Introduction
 
-There are a lot of chat applications available like whatsapp, instagram or facebook messenger and most of them claim to be end to end encrypted but there is no way to find out so I thought of creating an incognito chat application which you can host on your local area network and chat with your friends, colleagues or relatives. This application is probably the lightest chat application as it contains 1 html and 1 javascript file only.
+There are many chat applications available, such as WhatsApp, Instagram, and Facebook Messenger, which claim to be end-to-end encrypted. However, there's no way to verify this. So, I decided to create an incognito chat application that you can host on your local area network to chat with friends, colleagues, or relatives. This application is likely the lightest chat application available, consisting of only one HTML file and one JavaScript file.
 
 
 # Usage
